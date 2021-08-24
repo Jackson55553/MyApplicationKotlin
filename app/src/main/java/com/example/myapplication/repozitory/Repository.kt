@@ -20,7 +20,9 @@ interface IRepository {
 object RepositorySingle : IRepository {
     private val weathers: List<Weather> = listOf(
         Weather("town", 25),
-        Weather("superTown", 5)
+        Weather("superTown", 5),
+        Weather("Moscow", 25),
+        Weather("Voronej", 5)
     )
 
     override fun getWeathers(): List<Weather> {
