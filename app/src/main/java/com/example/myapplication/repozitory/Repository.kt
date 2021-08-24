@@ -26,6 +26,8 @@ object RepositorySingle : IRepository {
     override fun getWeathers(): List<Weather> {
         return weathers
     }
+
+    fun size() = weathers.size
 }
 
 inline fun getRepository(): IRepository {
