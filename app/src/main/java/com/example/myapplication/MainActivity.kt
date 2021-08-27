@@ -17,6 +17,6 @@ class MainActivity : AppCompatActivity() {
         recyclerWeather.adapter = adapter
 
         val btn = findViewById<Button>(R.id.button)
-        btn.setOnClickListener { Toast.makeText(this,"кнопка",Toast.LENGTH_SHORT).show() }
+        btn.setOnClickListener { Toast.makeText(this, "кнопка", Toast.LENGTH_SHORT).show() }
     }
 }

@@ -6,7 +6,7 @@ data class Weather(var town: String = "my town", var temperature: Int = 10) {
         this.pressure = pressure
     }
 
-    constructor(humidinty:Int):this(){}
+    constructor(humidinty: Int) : this() {}
 
-    var pressure:Int = 0
+    var pressure: Int = 0
 }
